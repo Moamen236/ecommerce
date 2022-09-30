@@ -19,10 +19,11 @@ class CreateUserAddressesTable extends Migration
             $table->string('building');
             $table->string('floor');
             $table->string('apartment');
+            $table->string('phone');
             $table->string('nearest_landmark')->nullable();
             $table->string('location_type');
+            $table->boolean('is_main_address')->default(1);
             $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->foreignId('country_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('city_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('district_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('location_id')->constrained()->onDelete('cascade')->onUpdate('cascade');

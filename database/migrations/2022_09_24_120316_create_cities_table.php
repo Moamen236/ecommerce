@@ -17,7 +17,8 @@ class CreateCitiesTable extends Migration
             $table->id();
             $table->string('name_ar')->nullable();
             $table->string('name_en')->nullable();
-            $table->foreignId('country')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            $table->float('shipping_price', 8, 2)->unsigned()->nullable();
+            $table->boolean('active')->default(1);
             $table->timestamps();
         });
     }

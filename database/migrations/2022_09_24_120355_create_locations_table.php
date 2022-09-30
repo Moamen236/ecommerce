@@ -15,9 +15,10 @@ class CreateLocationsTable extends Migration
     {
         Schema::create('locations', function (Blueprint $table) {
             $table->id();
-            $table->string("location_name_ar")->nullable();
-            $table->string("location_name_en")->nullable();
-            $table->foreignId('district')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            $table->string("name_ar");
+            $table->string("name_en");
+            $table->bigInteger('district_id')->unsigned()->nullable();
+            $table->foreign('district_id')->references('id')->on('districts')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }

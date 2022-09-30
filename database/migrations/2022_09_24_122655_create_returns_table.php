@@ -17,7 +17,6 @@ class CreateReturnsTable extends Migration
             $table->id();
             $table->bigInteger('quantity')->unsigned()->default(0);
             $table->float('price', 8, 2)->unsigned();
-            $table->float('cost', 8, 2)->unsigned();
             $table->text('comment')->nullable();
             $table->bigInteger('user_id')->unsigned();
             $table->bigInteger('order_id')->unsigned();

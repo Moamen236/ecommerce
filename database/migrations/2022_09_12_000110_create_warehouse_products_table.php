@@ -23,8 +23,10 @@ class CreateWarehouseProductsTable extends Migration
             $table->bigInteger('base_quantity')->unsigned();
             $table->float('cost', 8, 2)->unsigned();
             $table->timestamp('expiry_date')->nullable();
-            $table->foreignId('product_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->foreignId('warehouse_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            $table->bigInteger('product_id')->unsigned()->nullable();
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade')->onUpdate('cascade');
+            $table->bigInteger('warehouse_id')->unsigned()->nullable();
+            $table->foreign('warehouse_id')->references('id')->on('warehouses')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
