@@ -54,7 +54,13 @@ return [
 
     'url' => env('APP_URL', 'http://ecommerce.local'),
 
-    'asset_url' => env('ASSET_URL', null),
+    'asset_url' => env('ASSET_URL', 'http://ecommerce.local'),
+
+    // routes
+    'admin_routes_enabled' => env('ADMIN_ROUTES_ENABLED', true),
+    'user_routes_enabled' => env('USER_ROUTES_ENABLED', true),
+
+    'admin_routes_prefix' => env('ADMIN_ROUTES_PREFIX', 'admin'),
 
     /*
     |--------------------------------------------------------------------------
