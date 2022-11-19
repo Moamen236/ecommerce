@@ -15,11 +15,11 @@ class CreateSubSubCategoriesTable extends Migration
     {
         Schema::create('sub_sub_categories', function (Blueprint $table) {
             $table->id();
-            $table->string('name_en')->nullable();
-            $table->string('name_ar')->nullable();
-            $table->text('description_en')->nullable();
-            $table->text('description_ar')->nullable();
-            $table->text('slug')->nullable();
+            $table->string('name_en');
+            $table->string('name_ar');
+            $table->text('description_en');
+            $table->text('description_ar');
+            $table->text('slug');
             $table->boolean('navbar_visibility')->default(0);
             $table->boolean('active')->default(1);
             $table->bigInteger('sub_category_id')->unsigned();

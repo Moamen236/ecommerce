@@ -6,15 +6,15 @@ use Illuminate\Support\Str;
 use App\Models\SubSubCategory;
 use App\Models\ProductCategory;
 use App\Helpers\LocalizableModel;
+use Spatie\MediaLibrary\Models\Media;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Product extends LocalizableModel implements HasMedia
 {
-    use HasFactory, HasMediaTrait;
+    use HasMediaTrait;
 
     /**
      * The attributes that are mass assignable.
@@ -56,6 +56,37 @@ class Product extends LocalizableModel implements HasMedia
         'allow_review' => 'boolean',
         'active' => 'boolean'
     ];
+
+    public function registerMediaConversions(Media $media = null)
+    {
+        $this->addMediaConversion('medium')
+            ->width(1024)
+            ->height(1024)
+            ->nonQueued();
+        $this->addMediaConversion('card')
+            ->width(400)
+            ->height(400)
+            ->nonQueued();
+        $this->addMediaConversion('thumb')
+            ->width(160)
+            ->height(160)
+            ->nonQueued();
+    }
+
+    /**
+     * The function to return Images.
+     *
+     */
+    public function getImagesAttribute()
+    {
+        $images = $this->getMedia('product.images');
+        foreach ($images as $image) {
+            $image->url = $image->getUrl('card');
+            $image->medium_size_url = $image->getUrl('medium');
+            $image->original_size_url = $image->getUrl();
+        }
+        return $images;
+    }
 
     /**
      * Get Brand
