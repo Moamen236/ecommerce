@@ -1,0 +1,42 @@
+name_en,name_ar,description_en,description_ar,icon,category_id,updated_at,slug
+Major Appliances,الأجهزة الكبيرة,Major Appliances,الأجهزة الكبيرة,NULL,4,18-08-22 10:11,Home-Appliances
+TV Accessories,اكسسوارات التلفزيونات,TV Accessories,اكسسوارات التلفزيونات,NULL,7,19-01-21 11:09,TVs-and-Audio
+Cameras,الكاميرات,Cameras,الكاميرات,NULL,9,18-01-21 21:30,Cameras
+Car Accessories,اكسسوارات السيارات,Car Accessories,اكسسوارات السيارات,NULL,15,19-01-21 0:12,Car-Accessories
+Small Appliances,الأجهزة الصغيرة,Small Appliances,الأجهزة الصغيرة,NULL,3,19-01-21 0:12,Kitchen-Appliances
+Mobile Accessories,اكسسوارات الموبيل,Mobile Accessories,اكسسوارات الموبيل,NULL,4,18-01-21 20:02,Mobile-Phones-Tablets
+Networking & Office Supplies,شبكات وأجهزة مكتب,Networking &amp; Office Supplies,شبكات وأجهزة مكتب,NULL,11,19-01-21 0:12,Networking-Accessories
+Personal Care,العناية الشخصية,Personal Care,العناية الشخصية,NULL,13,19-01-21 0:12,Personal-Care
+Printers & Scanners,طابعات و ناسخات,Printers & Scanners,طابعات و ناسخات,NULL,10,18-01-21 20:14,Printers-Scanners
+Others,أخرى,Others,أخرى,NULL,2,11-01-21 13:01,Other
+Computer Accessories,اكسسوارات الكمبيوتر,Computer Accessories,اكسسوارات الكمبيوتر,NULL,6,18-01-21 21:59,Computers-Laptops
+Computer Parts & Components,اجزاء و مكونات الكمبيوتر,Computer Parts & Components,اجزاء و مكونات الكمبيوتر,NULL,6,18-01-21 21:59,Computer-Parts-Components
+Tools & Home Improvements,أدوات و معدات تطوير المنزل,Tools & Home Improvements,أدوات و معدات تطوير المنزل,NULL,14,18-01-21 21:28,Tools-Home-Improvements
+Game Consoles and Devices,أجهزة الألعاب,Game Consoles and Devices,أجهزة الألعاب,NULL,8,18-01-21 20:15,Game-Consoles-sc23
+Headphones,سماعات,Headphones,سماعات,NULL,4,18-01-21 20:09,Headphones
+Mobile Phones,موبيلات,Mobile Phones,موبيلات,NULL,4,18-01-21 20:13,Mobile-Phones-sc25
+Video Games,ألعاب الفيديو,Video Games,ألعاب الفيديو,NULL,8,18-01-21 20:25,Video-Games-sc26
+Gaming Accessories and Gears,اكسسوارات الألعاب,Gaming Accessories and Gears,اكسسوارات الألعاب&nbsp;,NULL,8,18-01-21 20:33,Gaming-Accessories-and-Gears
+Laptops,لابتوب,Laptops,لابتوب,NULL,5,18-01-21 20:39,Laptops
+Tablets,تابلت,Tablets,تابلت,NULL,5,18-01-21 20:49,Tablets-sc29
+Laptops and Tablets Accessories,اكسسوارات اللابتوب والتابلت,Laptops and Tablets Accessories,اكسسوارات اللابتوب والتابلت,NULL,5,18-01-21 20:50,Laptops-and-Tablets-Accessories
+Camera Accessories,اكسسوارات الكاميرا,Camera Accessories,اكسسوارات الكاميرا,NULL,9,18-01-21 20:54,Camera-Accessories
+Computers,كمبيوترات,Computers,كمبيوترات,NULL,6,18-01-21 20:58,Computers
+Monitors,شاشات,Monitors,شاشات,NULL,6,18-01-21 20:59,Monitors
+Televisions,تلفزيونات,Televisions,تلفزيونات,NULL,7,19-01-21 11:08,Televisions-sc35
+Home Theater,أنظمة المسرح المنزلي,Home Theater,أنظمة المسرح المنزلي,NULL,7,19-01-21 11:10,Home-Theater
+Wearables,الأجهزة القابلة للارتداء,Wearables,الأجهزة القابلة للارتداء,NULL,12,18-01-21 21:05,Wearables
+Fitness,اللياقة البدنية,Fitness,اللياقة البدنية,NULL,12,18-01-21 21:05,Fitness
+Men Personal Care,العناية الشخصية للرجال,Men Personal Care,العناية الشخصية للرجال,NULL,13,18-01-21 21:26,Men-Personal-Care
+Women Personal Care,العناية الشخصية للنساء,Women Personal Care,العناية الشخصية للنساء,NULL,13,18-01-21 21:27,Women-Personal-Care
+Mobile Phones & Tablets,موبايلات وأجهزة تابلت,Mobile Phones & Tablets,موبايلات وأجهزة تابلت,NULL,2,19-01-21 18:14,Mobile-Phones-Tablets-sc42
+Home Appliances,الأجهزة المنزلية,Home Appliances,الأجهزة المنزلية,NULL,15,09-12-20 9:15,Home-Appliances
+Kitchen Appliances,اجهزة المطبخ,Kitchen Appliances,اجهزة المطبخ,NULL,15,09-12-20 9:15,Kitchen-Appliances
+Phones Accessories,اكسسوارات الموبايلات,Phones Accessories,اكسسوارات الموبايلات,NULL,15,09-12-20 9:16,Phones-Accessories
+Mobile Phones & Tablets,موبايلات وأجهزة تابلت,Mobile Phones & Tablets,موبايلات وأجهزة تابلت,NULL,15,09-12-20 9:15,Mobile-Phones-Tablets
+Computes Accessories,اكسسوارات الكمبيوتر,Computes Accessories,اكسسوارات الكمبيوتر,NULL,15,09-12-20 9:16,Computes-Accessories
+Personal Care,العناية الشخصية,Personal Care,العناية الشخصية,NULL,15,08-12-20 21:51,Personal-Care
+Computers & Laptops,كمبيوترات و لاب توب,Computers & Laptops,كمبيوترات و لاب توب,NULL,15,09-12-20 9:15,Computers-Laptops
+Computer Parts & Components,اجزاء و مكونات الكمبيوتر,Computer Parts & Components,اجزاء و مكونات الكمبيوتر,NULL,15,08-12-20 23:46,Computer-Parts-Components
+Networking & Accessories, الشبكات و اكسسواراتها,Networking & Accessories, الشبكات و اكسسواراتها,NULL,15,08-12-20 23:47,Networking-Accessories
+Printers & Scanners,طابعات و ناسخات,Printers & Scanners,طابعات و ناسخات,NULL,15,08-12-20 23:52,Printers-Scanners
